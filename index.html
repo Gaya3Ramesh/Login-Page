@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="/New Login/css/style.css" />
+
+    <!--google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font -->
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- FontAwesome  -->
+
+    <!-- Google Poppins Font -->
+
+    <!-- Google Poppins Font -->
+  </head>
+
+  <body>
+    <nav class="nav-bar">
+      <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+          <a
+            href="#"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none"
+          >
+            <span class="fs-4"
+              ><img
+                src="/New Login/image/mastek white (1).png"
+                alt="Logo"
+                class="logo"
+                width="110px"
+                height="25px"
+            /></span>
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link active"
+                aria-current="page"
+                style="color: rgb(255, 255, 255)"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" style="color: rgb(255, 255, 255)"
+                >SignIn</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" style="color: rgb(255, 255, 255)"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" style="color: rgb(255, 255, 255)"
+                >FAQs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" style="color: rgb(255, 255, 255)"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div class="container hamburger" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </header>
+      </div>
+    </nav>
+
+    <!-- <div id="menu" class="fa fa-bars"></div> -->
+
+    <section>
+      <div class="form-container">
+        <div class="box"></div>
+        <h1>Login Form</h1>
+        <form action="index.html">
+          <div class="control">
+            <label for="name" class="label">Username</label>
+            <input type="text" placeholder="Enter your username" required />
+          </div>
+          <div class="control">
+            <label for="psw" class="label">Password</label>
+            <input type="password" id="psw" placeholder="Password" required />
+          </div>
+          <ul class="remind">
+            <li><input type="checkbox" class="checkbox" /></li>
+            <li><span class="keepsigin">Remember me</span></li>
+            <li><a href="#" class="forgetpwd">Forget password ?</a></li>
+          </ul>
+
+          <div class="control">
+            <input type="submit" class="btn" value="Login" />
+          </div>
+        </form>
+
+        <div class="lineLeft"></div>
+        <p class="orlogin">Or Login With</p>
+        <div class="lineRight"></div>
+
+        <div class="social_media">
+          <img src="/New Login/image/google.png" class="fa" />
+          <img src="/New Login/image/facebook.png" class="fa" />
+          <img src="/New Login/image/twitter.png" class="fa" />
+        </div>
+
+        <div class="newUser">
+          <p>New User? <a href="#">SignIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+    </script> -->
+  </body>
+</html>
