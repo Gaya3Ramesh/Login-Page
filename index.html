@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <link rel="stylesheet" href="/New Login/css/style.css" />
+    <link rel="stylesheet" href="css/style.css">
 
     <!--google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -49,7 +49,7 @@
           >
             <span class="fs-4"
               ><img
-                src="/New Login/image/mastek white (1).png"
+                src="/images/mastek white (1).png"
                 alt="Logo"
                 class="logo"
                 width="110px"
@@ -87,17 +87,24 @@
                 >Contact</a
               >
             </li>
+            <li class="hamburger"> <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3">
+                  <span
+                    style="font-size: 30px; cursor: pointer"
+                    id="burgerM"
+                    class="burger"
+                    onclick="openNav()"
+                    >&#9776;
+                  </span>
+                </div>
+              </div>
+            </div></li>
           </ul>
-          <div class="container hamburger" onclick="myFunction(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-          </div>
         </header>
       </div>
     </nav>
 
-    <!-- <div id="menu" class="fa fa-bars"></div> -->
 
     <section>
       <div class="form-container">
@@ -128,9 +135,9 @@
         <div class="lineRight"></div>
 
         <div class="social_media">
-          <img src="/New Login/image/google.png" class="fa" />
-          <img src="/New Login/image/facebook.png" class="fa" />
-          <img src="/New Login/image/twitter.png" class="fa" />
+          <img src="/images/google.png" class="fa" />
+          <img src="/images/facebook.png" class="fa" />
+          <img src="/images/twitter.png" class="fa" />
         </div>
 
         <div class="newUser">
@@ -144,5 +151,17 @@
         x.classList.toggle("change");
       }
     </script> -->
+
+
+    <!-- <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        // document.getElementById("b").style.background = "grey";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      } -->
+    </script>
   </body>
 </html>
