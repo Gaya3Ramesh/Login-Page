@@ -213,12 +213,23 @@ a:hover {
 
 @media screen and (max-width: 777px) {
   .form-container {
-    top: 350px;
+    top: 40%;
   }
 }
 
 @media screen and (max-width: 777px) {
-    .nav-item {
-      display: none;
-    }
+  .nav-item {
+    display: none;
   }
+}
+
+.hamburger {
+  margin-left: 350px;
+  color: #fff;
+}
+
+@media screen and (min-width: 770px) {
+  .hamburger {
+    display: none;
+  }
+}
